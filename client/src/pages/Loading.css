@@ -1,0 +1,30 @@
+.l1{
+ animation: anim 1s infinite;
+}
+.l2{
+    animation: anim1 1s infinite;
+}
+@keyframes anim {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(0.2);
+    }
+    
+}
+@keyframes anim1 {
+    0%{
+        transform: scale(0.2);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
